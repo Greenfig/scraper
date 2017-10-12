@@ -35,7 +35,7 @@ public final class getKSCookies {
             webClient.getOptions().setThrowExceptionOnFailingStatusCode(false);
 
             // Get the first page
-            page = (HtmlPage) webClient.getPage("http://wwwsc.ekeystone.com/login?Logout=true&RedirectURL=/");
+            page = (HtmlPage) webClient.getPage("www.websiteloginurl.com");
 
             // Get the form that we are dealing with and within that form,
             // find the submit button and the field that we want to change.
